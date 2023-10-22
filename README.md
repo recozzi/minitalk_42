@@ -4,13 +4,18 @@ The Minitalk project involves developing a client-server communication system in
 <h2>How To Use</h2>
 <ol>
   <li>Clone the repository:</li>
-  <pre><code>git clone https://github.com/recozzi/get_next_line_42.git</code></pre>
+  <pre><code>git clone https://github.com/recozzi/minitalk_42.git</code></pre>
   <li>Move to the project's directory:</li>
-  <pre><code>cd get_next_line</code></pre>
-  <li>Compile the source code with your desired buffer size using the following command:</li>
-  <pre><code>gcc -Wall -Wextra -Werror -D BUFFER_SIZE=42 *.c</code></pre>
+  <pre><code>cd minitalk</code></pre>
+  <li>Compile the source code with Makefile rule:</li>
+  <pre><code>make</code></pre>
+   <li>Now you are ready to use this Client-Server System:</li>
+   Open two terminals. In the first one run the command:
+   <pre><code>./server</code></pre>
+   and in the second one run the client passing three arguments:
+   <pre><code>./client server_pid message_you_want_to_send</code></pre>
 </ol>
 <h2>Info</h2>
-For more information about this project, please read the subject file <a href="https://github.com/recozzi/get_next_line_42/blob/main/en.subject.pdf">here</a>.
+For more information about this project, please read the subject file <a href="https://github.com/recozzi/minitalk_42/blob/main/en.subject.pdf">here</a>.
 <h2>Licence</h2>
-See <a href="https://github.com/recozzi/get_next_line_42/blob/main/LICENSE">License</a>.
+See <a href="https://github.com/recozzi/minitalk_42/blob/main/LICENSE">License</a>.
