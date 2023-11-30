@@ -26,11 +26,11 @@ LIBFT		:=	Libft/libft.a
 
 # COLORS ================================================================= #
 
-RED = \033[0;91m
-GREEN = \033[0;92m
-YELLOW = \033[0;93m
-CYAN = \033[0;96m
-WHITE = \033[0;97m
+RED		=	\033[0;91m
+GREEN	=	\033[0;92m
+YELLOW	=	\033[0;93m
+CYAN	=	\033[0;96m
+WHITE	=	\033[0;97m
 
 # ======================================================================== #
 
@@ -47,13 +47,13 @@ $(NAME):
 
 clean:
 	@make clean -C Libft
-	@echo "$(RED)All $(CYAN)$(NAME)$(RED)'s objects removed with $(WHITE)${RM} $(YELLOW)"
+	@echo "$(RED)All $(CYAN)$(NAME)$(RED)'s objects removed..."
 
 fclean: clean
-	@rm -rf client
-	@rm -rf server
+	@rm client
+	@rm server
 	@make fclean -C Libft
-	@echo "$(RED)..and $(CYAN)${NAME} $(RED)as been removed"
+	@echo "$(RED)...And $(CYAN)${NAME} $(RED)as been removed."
 
 re: fclean all
 
